@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><configuration>
+<property><name>odps.mapred.reduce.class</name><value>com.aliyun.friends.friendsReducer</value></property>
+<property><name>odps.mapred.local.download.mode</name><value>AUTO</value></property>
+<property><name>odps.mapred.local.record.download.limit</name><value>1000</value></property>
+<property><name>odps.mapred.map.class</name><value>com.aliyun.friends.FriendsMapper</value></property>
+<property><name>odps.mapred.output.desc</name><value>[{"tblName":"friends_in","partSpec":{},"label":"__default__"}]</value></property>
+<property><name>odps.mapred.resources</name><value/></property>
+<property><name>odps.mapred.mapoutput.key.schema</name><value>friends:STRING</value></property>
+<property><name>odps.mapred.job.name</name><value>mr_20190217161535_400_19788</value></property>
+<property><name>odps.mapred.mapoutput.value.schema</name><value>count:BIGINT</value></property>
+<property><name>odps.mapred.local.temp.retain</name><value>false</value></property>
+<property><name>odps.mapred.input.desc</name><value>[{"tblName":"friends_in","partSpec":{},"label":"__default__"}]</value></property>
+</configuration>

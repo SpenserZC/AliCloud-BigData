@@ -1,0 +1,4 @@
+project=u_r6hvaiu2_1550141334
+table=dw_tj
+columns=pid:STRING,skn:DOUBLE,skq:DOUBLE,kun:DOUBLE,kuq:DOUBLE
+partitions=deviceid:STRING

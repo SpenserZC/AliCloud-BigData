@@ -1,0 +1,3 @@
+project=u_xswsmcdn_1550390546
+table=friends_out
+columns=userA:STRING,userB:STRING,cnt:bigint
